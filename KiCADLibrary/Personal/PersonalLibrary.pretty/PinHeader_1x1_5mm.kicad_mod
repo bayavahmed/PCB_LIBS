@@ -1,0 +1,23 @@
+(footprint "PinHeader_1x1_5mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Mounting Hole 2.2mm, M2, DIN965")
+  (tags "mounting hole 2.2mm m2 din965")
+  (property "Sheetfile" "ADS1235.kicad_sch")
+  (property "Sheetname" "ADS1235")
+  (property "ki_description" "Mounting Hole with connection")
+  (property "ki_keywords" "mounting hole")
+  (attr exclude_from_pos_files)
+  (fp_text reference "H23" (at 0 -2.9 -180) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4b43c184-51cd-4f5c-9fb3-f9cdf21e0a69)
+  )
+  (fp_text value "E+" (at 0 2.9 -180) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2c20a14f-3f14-4692-9685-3e981858f675)
+  )
+  (fp_text user "${REFERENCE}" (at 0 1.8 -180) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6a4c30f3-3a54-4edd-93c2-44b888381533)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 3b5d2d5b-080b-4b2c-93a8-8e9a924597e0))
+)

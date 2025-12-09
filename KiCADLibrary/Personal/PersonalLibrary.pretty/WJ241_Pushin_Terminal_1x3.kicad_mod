@@ -1,0 +1,150 @@
+(footprint "WJ241_Pushin_Terminal_1x3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "691401700006B-1")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 4.9 6.7 0)
+		(layer "F.SilkS")
+		(uuid "659cf7cd-4a3c-4508-86df-ef0241ae2e11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "WJ241_Pushin_Terminal_1x3"
+		(at 3 11.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "be4e5b3f-1309-4672-ae31-a9fbf1d1b97a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "WJ241_Pushin_Terminal_1x3"
+		(at 3.7 9.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9626c4d-4247-4990-9dae-8c6588cfd5cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "551189e9-e022-4019-bf87-48d08d560b15")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc11111c-6b09-45d6-80b5-6081e28749a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_rect
+		(start -4.1 -10.95)
+		(end 12.3 2.75)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c7ad7a64-9717-4576-913e-62840ddf4796")
+	)
+	(fp_rect
+		(start -4.1 -10.895)
+		(end -1.69 2.695)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "ca248b99-e20a-489c-89a2-1e6f0f1d1480")
+	)
+	(pad "1" thru_hole rect
+		(at 0 -8.2 90)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c7783db-0eff-4a5f-841b-2a5566dd1a1e")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "3fc8bd4e-73ce-4e20-865f-ac354629f9ec")
+	)
+	(pad "2" thru_hole circle
+		(at 5 -8.2 90)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79fbc9d0-8c32-4178-911a-b95a30d26e55")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0 90)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1136fea6-ef52-4342-85b5-a9e94e7b90b7")
+	)
+	(pad "3" thru_hole circle
+		(at 10 -8.2 90)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8b781017-ed00-49a4-b1f5-29df0ac0a46d")
+	)
+	(pad "3" thru_hole circle
+		(at 10 0 90)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "510283e2-5788-46ae-84b2-1802e62a7227")
+	)
+	(model "${PERSONAL}/691401700003B (rev1).stp"
+		(offset
+			(xyz 5 4 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

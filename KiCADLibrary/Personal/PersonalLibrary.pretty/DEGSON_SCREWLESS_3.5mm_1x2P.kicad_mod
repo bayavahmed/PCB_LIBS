@@ -1,0 +1,187 @@
+(footprint "DEGSON_SCREWLESS_3.5mm_1x2P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J1"
+		(at 0 -0.04 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3fdbc58a-f0e3-40d3-b72a-1de8de3c7728")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x04"
+		(at 0 -13.74 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b57fbf98-c9aa-4446-add9-3fe525618cea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac7f249b-addc-43e7-bf27-4deb054304e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebb55b43-23f1-4ebf-82c1-29ae77fa7d25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7b9bf26-3950-4fd0-b65d-77e7cbd6e823")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.25 7.3)
+		(end 5.25 7.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1500103-7926-4d69-a561-447e6356ff2d")
+	)
+	(fp_rect
+		(start -1.75 -2.3)
+		(end -3.25 9.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "58e09fbd-9a18-4e2c-8142-21e645b15804")
+	)
+	(fp_rect
+		(start -1.75 9.7)
+		(end 1.75 -2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a953fed3-16fc-40a8-b205-67ed3a558fe8")
+	)
+	(fp_rect
+		(start 5.25 -2.3)
+		(end 1.75 9.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2b0c96d8-fc72-44e3-bc92-dc4f2aa8286a")
+	)
+	(fp_circle
+		(center 0 8.5)
+		(end 0.75 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "3b1fe735-252b-4a0f-9b34-af4eb7e990d4")
+	)
+	(fp_circle
+		(center 3.5 8.5)
+		(end 4.25 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "04b0d66b-afc3-428f-9908-3d6a66ff87b2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -12.24 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74b601ca-3246-420d-aaf3-7508f9ec283c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 8.85 -17.44 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b29e78f8-2c80-43f4-815a-da067c9b7ba0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 90)
+		(size 2.5 2.5)
+		(drill oval 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d2fc756-d595-436a-b3eb-934a8d7fe5c8")
+	)
+	(pad "2" thru_hole circle
+		(at 3.5 5 90)
+		(size 2.5 2.5)
+		(drill oval 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e7f8ac5-0663-4ca0-8f49-6871f11f5b6d")
+	)
+	(model ":PERSONAL:250-202.stp"
+		(offset
+			(xyz 5.25 -5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

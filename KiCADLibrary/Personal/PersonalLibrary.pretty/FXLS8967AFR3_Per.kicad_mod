@@ -1,0 +1,271 @@
+(footprint "FXLS8967AFR3_Per"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "FXLS8967AFR3-1")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC5"
+		(at -0.25 -2.75 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cd3457cd-ae4a-4a7a-9d7a-10d5d7dbd387")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FXLS8967AFR3_Per"
+		(at 1 4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9420e183-6d63-41ab-a515-42a2da3cea50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "FXLS8967AFR3_Per"
+		(at 1 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d14af8ac-e087-4a50-b505-c9854f162218")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64d33eba-c576-405b-ba6e-8d5483386b61")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Accelerometers 3-axis MEMS accelerometer for Automotive security and convenience apps that require ultra-low power wake up on motion"
+		(at 1 4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbabbeba-f454-4945-b247-e58b1b6fc8bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.45 -1.15)
+		(end -1.45 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27719741-0e9e-44a6-9e00-aebae3731930")
+	)
+	(fp_line
+		(start -1.35 -1.15)
+		(end -1.35 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cee0f28b-6f6f-48ed-97fb-e8a4f5d6720c")
+	)
+	(fp_arc
+		(start -1.45 -1.15)
+		(mid -1.4 -1.2)
+		(end -1.35 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c11caed-5a57-4c53-94ec-74f2969df278")
+	)
+	(fp_arc
+		(start -1.35 -1.15)
+		(mid -1.4 -1.1)
+		(end -1.45 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e072c845-06cb-4f56-a83a-d153d693596b")
+	)
+	(fp_line
+		(start -2.412 -2)
+		(end 2.412 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "281c9cdd-a901-4f44-9528-c30b3635b023")
+	)
+	(fp_line
+		(start -2.412 2)
+		(end -2.412 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "82f1f4b4-614a-4e65-b1e9-5d5a25b4f8c9")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ed4f507e-d99d-4c9e-aec5-5b2c4e1326e9")
+	)
+	(fp_line
+		(start -1 1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4f6aaabf-6802-4e68-8c7c-fa0765d3c65c")
+	)
+	(fp_line
+		(start 1 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "01dce083-c946-44b6-b10c-f15d31dd09ed")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c0054afe-4487-4264-8ca2-763b207d1865")
+	)
+	(fp_line
+		(start 2.412 -2)
+		(end 2.412 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ca401252-2b5f-4e8d-bc58-54e0bfba9e27")
+	)
+	(fp_line
+		(start 2.412 2)
+		(end -2.412 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b0f5b19d-cb2b-478b-9463-7dcc38c02cca")
+	)
+	(pad "1" smd rect
+		(at -1.35 -0.8 90)
+		(size 0.2 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8237fc6e-0120-4696-9697-0b673693adc4")
+	)
+	(pad "2" smd rect
+		(at -1.35 -0.4 90)
+		(size 0.2 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "cb6369d8-8ca8-4b42-8115-8d701d0d0d89")
+	)
+	(pad "3" smd rect
+		(at -1.35 0 90)
+		(size 0.2 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ce8aa7ac-6e61-4737-865b-a075139fd682")
+	)
+	(pad "4" smd rect
+		(at -1.35 0.4 90)
+		(size 0.2 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "96f2a5d5-0e59-4706-8a15-a24bf9c5eb52")
+	)
+	(pad "5" smd rect
+		(at -1.35 0.8 90)
+		(size 0.2 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "99c26cf9-32e1-4d90-9fdf-26901086761a")
+	)
+	(pad "6" smd rect
+		(at 1.35 0.8 90)
+		(size 0.2 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e175e135-c99a-4c25-97d3-448a0cc2035e")
+	)
+	(pad "7" smd rect
+		(at 1.35 0.4 90)
+		(size 0.2 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fd9a5d7a-e58e-4b52-8cbd-1032bc3de172")
+	)
+	(pad "8" smd rect
+		(at 1.35 0 90)
+		(size 0.2 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b418fd1e-8f40-4551-88e6-1646f78e3da3")
+	)
+	(pad "9" smd rect
+		(at 1.35 -0.4 90)
+		(size 0.2 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "73a680a4-4ce2-4a7a-b03c-dac8b4094cbc")
+	)
+	(pad "10" smd rect
+		(at 1.35 -0.8 90)
+		(size 0.2 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "953bdfe8-ebac-4a45-9196-aa7603510389")
+	)
+	(model "${SAMACSYS}/FXLS8967AFR3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

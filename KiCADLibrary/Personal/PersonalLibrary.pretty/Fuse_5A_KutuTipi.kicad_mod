@@ -1,0 +1,151 @@
+(footprint "Fuse_5A_KutuTipi"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "TH16"
+		(at 0 -15.24 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d2ad2422-3bc1-4269-b478-9659d9a07d09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PTC"
+		(at 0 -13.74 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27f62e54-706c-46a5-82a2-8d0c743f5be1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Fuse_5A_KutuTipi"
+		(at 0 6.18 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37a249a2-ab82-4721-b343-7c439f40d3db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf80c193-4282-4ab0-b409-c1a22166151d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Temperature dependent resistor, positive temperature coefficient"
+		(at 0 7.61 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9286f5a9-2ebe-476a-afd9-8c0591bae2d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.2 2)
+		(end 4.2 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "deddbd60-fe22-4d79-83b1-3368f2ec76ae")
+	)
+	(fp_arc
+		(start -0.01 0)
+		(mid -0.762 0.752)
+		(end -1.514 0)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "353b0934-2742-4d5f-ab24-7448b9055b78")
+	)
+	(fp_arc
+		(start -0.01 0)
+		(mid 0.762 -0.772)
+		(end 1.534 0)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b45168ff-1de3-46dd-9f57-cf38ec03b92a")
+	)
+	(pad "1" thru_hole circle
+		(at -2.56 0)
+		(size 1.3 1.3)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.9)
+			(max_length 5)
+			(best_width_ratio 1)
+			(max_width 5)
+			(curve_points 10)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "f55c473e-dd3c-48ee-bdd7-05afa1dbc2fd")
+	)
+	(pad "2" thru_hole circle
+		(at 2.56 0)
+		(size 1.3 1.3)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.9)
+			(max_length 5)
+			(best_width_ratio 1)
+			(max_width 5)
+			(curve_points 10)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "065f80ee-e200-4c42-8de6-d1551fc28cd8")
+	)
+	(model "${PERSONAL}/Fuse_8.5x4.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,427 @@
+<html>
+	<head>
+		<title>KiCad Libraries Plugin V1.4 - Powered by SamacSys Component Search Engine</title>
+		<hta:application id="oHTA" border="thin" caption="yes" contextmenu="yes" innerborder="no" scroll="yes" showintaskbar="yes" icon="SamacSys.ico" </>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script language="VBScript" type="text/vbscript" src="VbsJson.vbs"></script>
+		<script language="VBScript" type="text/vbscript" src="SamacSys.vbs"></script>
+		<script language="VBScript" type="text/vbscript" src="inifunctions.vbs"></script>
+		<script language="VBScript" type="text/vbscript" src="SamacSys.hta.vbs"></script>
+		<script type="text/javascript">
+		  function openURL(url)
+		  {
+		      var shell = new ActiveXObject("WScript.Shell");
+		      shell.run(url);
+		  }
+		  var panels = new Array("","panel1","panel2");
+			function panel(tab) {
+			    for (t=1; t<panels.length; t++) {
+			        if (t == tab) {
+			            document.getElementById("tab"+t).className = "tabs tabs1";
+			            document.getElementById("panel"+t).style.display = "block";
+			            document.getElementById('searchText').focus();
+						document.getElementById('searchText').select();
+			        } else {
+			            document.getElementById("tab"+t).className = "tabs tabs0";
+			            document.getElementById("panel"+t).style.display = "none";
+			        }
+			    }
+			}
+			</script>
+		</script>
+	    <script language="vbscript">
+	        Sub Window_OnLoad
+	        window.resizeTo 1000,900 
+	        strInstalledDir = GetScriptFolder()
+	        username1 = ReadIni(strInstalledDir & "install.ini", "General", "username")
+	        password1 = ReadIni(strInstalledDir & "install.ini", "General", "password")
+	        username.value = username1
+	        password.value = password1
+	        chk_LibMessages1 = ReadIni(strInstalledDir & "install.ini", "General", "LibMessages")
+	        chk_ShowInstruction1 = ReadIni(strInstalledDir & "install.ini", "General", "Instructions")
+	        chk_ClosePlugin1 = ReadIni(strInstalledDir & "install.ini", "General", "ClosePlugin")
+	        chk_Download3D1 = ReadIni(strInstalledDir & "install.ini", "General", "Download3D")
+	        
+	        chk_LibMessages.checked = chk_LibMessages1
+	        chk_ShowInstruction.checked = chk_ShowInstruction1
+	        chk_ClosePlugin.checked = chk_ClosePlugin1
+	        chk_Download3D.checked = chk_Download3D1
+	        Call LoginUser(username1,password1)
+	        searchText.select
+	        dnldsFldr.value = "KiCad Library: " & ReadIni(strInstalledDir & "install.ini", "General", "LibraryFolder") & "\SamacSys_Parts.lib"
+	        library.value = ReadIni(strInstalledDir & "install.ini", "General", "LibraryFolder")
+	        model_folder.value = ReadIni(strInstalledDir & "install.ini", "General", "3dModelFolder")
+	        Randomize()
+			RndNo = (CStr(Int(1000000 * Rnd())))
+	        'toolbarImg.src = "http:\\componentsearchengine.com\ExtRef\altium\AltiumToolbar.PNG?t=" + RndNo
+	        document.getElementById("iframeWelcome").src = "http://componentsearchengine.com/ExtRef/kicad/homepage.htm?t=" + RndNo
+	        End Sub
+	        Sub checkEnter
+  				With document.parentWindow.event
+    				if .keycode = 13 then
+      					Call MySearch()
+    				End if
+  				End With
+			End sub
+	    </script>
+	    <script type="text/javascript">
+	    	function Close() {
+	    		Window.close()
+	    	}
+		</script>
+		<!--<script type="text/javascript" src="sorttable.js"></script>-->
+	    <script type="text/javascript">
+	    	function sortSym() {
+	    		sorttable.innerSortFunction.apply(document.getElementById('symCol'));
+	    	}
+		</script>
+		
+	</head>
+	<body>
+	               <!--<iframe id="iframeWelcome" src="" height=400 width="100%"></iframe>-->
+<tr valign="top">
+  <td align="right" colspan="2">
+    <span class="head"><div class="header"> <a onclick="openHelpUrl()"><font color="blue"><u>Help</u></font></a></div></span>
+    <input type="text" id="dnldsFldr" class="dnldsFldr" readonly="readonly">
+    <br>
+  </td>
+</tr>   
+	        <tr valign="top">
+			  <td colspan="2">
+			    &nbsp; <span class="tabs tabs1" id="tab1" onclick="panel(1)">Selected Part Information</span>
+			    &nbsp; <span class="tabs tabs0" id="tab2" onclick="panel(2)">Login/Settings</span>
+			    <div class="panel" id="panel1" style="display:block">
+			      <!--<hr color="black">-->
+			        <table  id="mainTable" class="mainTable" width="100%" border="0" style="display: Block;">
+			        <tr valign="top">
+			          <td>
+			            <span class="head"><iframe id="iframeWelcome" src="" height=400 width="100%"></iframe></span>
+			            <br><br>
+			            <tr>
+			                <td width="100%">
+			                	<div style="display: none;" id="clickToView" class="clickToView">Click to zoom: <a style="cursor: pointer;display: none;" id="symbolLink" onclick="openSymbolUrl()"><font color="blue"><u>Symbol</u></font></a> | <a style="cursor: pointer;display: none;" id="footprintLink" onclick="openFootprintUrl()"><font color="blue"><u>Footprint</u></font></a><a id="3dDelimiter">&nbsp|&nbsp</a><a style="cursor: pointer;display: none;" id="3dLink" onclick="open3dUrl()"><font color="blue"><u>3D Model</u></font></a></div>
+			                	<div class="hyperlinks" id="hyperlinks" style="height: 30px;padding-right:10px;">
+			                		<p  id="pricingStockLink"style="cursor: pointer;display: none;" onclick="openPricingStockUrl()"><font color="blue"><u>Pricing and Stock</u></font></p>
+									<p  id="datasheetLink"style="cursor: pointer;display: none;" onclick="openDatasheetUrl()"><font color="blue"><u>Technical Datasheet</u></font></p>
+									<p  id="pinoutLink"style="cursor: pointer;display: none;" onclick="openPinoutUrl()"><font color="blue"><u>Pinout and other dimensions</u></font> (members only)</p>
+									<p  id="BuildRequestLink"style="cursor: pointer;display: none;" onclick="openBuildRequestUrl()"><font color="blue"><u>Build or Free Request</u></font></p>
+									<p  id="NewBuildRequestLink"style="cursor: pointer;display: none;" onclick="openNewBuildRequestUrl()"><font color="blue"><u>Build or Free Request</u></font></p>
+									<p  id="RequestLink"style="cursor: pointer;display: none;text-align: center" onclick="openRequestUrl()"><font color="red">- - - NO PARTS FOUND. <font color="blue"><u>Request this part</u><font color="red"> - - -</p>
+								</div>
+			
+			                    <div class="resultsDiv" id="resultsDiv" style="overflow: scroll; height: 175px;padding-right:10px">
+			                        <table id = "resultsTable" class="sortable" width="100%" border="1" >
+			                            <tbody>
+			                                <tr> 
+			                                    <th id = "symCol" scope="col"><b>Symbol</b></th>
+			                                    <th scope="col"><b>Footprint</b></th>
+			                                    <th scope="col"><b>3D</b></th>
+			                                    <th scope="col"><b>Datasheet</b></th>
+			                                    <th scope="col"><b>Description</b></th>
+			                                    <th scope="col"><b>Manufacturer</b></th>
+			                                    <th scope="col"><b>MPN</b></th>
+			                                </tr>
+			
+			                                <tr id="row1" onClick="ShowRecord(1)">
+			                                    <td>
+			                                        <div id="sym1" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="pcb1" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="3d1" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="ds1" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="desc1" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="man1" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="mpn1" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                </tr>
+			                                <tr id="row2" onClick="ShowRecord(2)">
+			                                    <td>
+			                                        <div id="sym2" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="pcb2" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="3d2" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+				                                        <div id="ds2" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="desc2" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="man2" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="mpn2" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                </tr>
+			                                <tr id="row3" onClick="ShowRecord(3)">
+			                                    <td>
+			                                        <div id="sym3" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="pcb3" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="3d3" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="ds3" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="desc3" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="man3" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="mpn3" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                </tr>
+			                                <tr id="row4" onClick="ShowRecord(4)">
+			                                    <td>
+			                                        <div id="sym4" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="pcb4" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="3d4" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="ds4" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="desc4" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="man4" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="mpn4" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                </tr>
+			                                <tr id="row5" onClick="ShowRecord(5)">
+			                                    <td>
+			                                        <div id="sym5" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="pcb5" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="3d5" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="ds5" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="desc5" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="man5" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="mpn5" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                </tr>
+			                                <tr id="row6" onClick="ShowRecord(6)">
+			                                    <td>
+			                                        <div id="sym6" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="pcb6" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="3d6" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="ds6" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="desc6" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="man6" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="mpn6" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                </tr>
+			                                <tr id="row7" onClick="ShowRecord(7)">
+			                                    <td>
+			                                        <div id="sym7" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="pcb7" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="3d7" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="ds7" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="desc7" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="man7" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="mpn7" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                </tr>
+			                                <tr id="row8" onClick="ShowRecord(8)">
+			                                    <td>
+			                                        <div id="sym8" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="pcb8" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="3d8" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="ds8" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="desc8" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="man8" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="mpn8" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                </tr>
+			                                <tr id="row9" onClick="ShowRecord(9)">
+			                                    <td>
+			                                        <div id="sym9" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="pcb9" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="3d9" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="ds9" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="desc9" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="man9" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="mpn9" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                </tr>
+			                                <tr id="row10" onClick="ShowRecord(10)">
+			                                    <td>
+			                                        <div id="sym10" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="pcb10" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="3d10" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="ds10" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="desc10" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="man10" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                    <td>
+			                                        <div id="mpn10" class="divRow">&nbsp;</div>
+			                                    </td>
+			                                </tr>
+			                            </tbody>
+			                        </table>
+			                    </div>
+			                    <table class="no_border_search_table" width="100%" border="0" cellpadding="0" cellspacing="0">
+			                        <tbody>
+			                            <tr>
+			                                <td width="100%">
+			                                    <input id="searchText" type="text" style="width: 54%;height:100%; " value="Enter keyword or manufacturer part number." onkeydown="checkEnter()">
+			                                    <input id="buttons" type="button" value="Search" onClick="MySearch()">
+			                                    <input id="buttons" type="button" value="Add to Library" onClick="DownloadFiles()">
+			                                    <input id="buttons" type="button" value="Close" onClick="Close()">
+			                                </td>
+			                            </tr>
+			                        </tbody>
+			                    </table>
+			                </td>
+			                </td>
+			            </tr>
+			          </td>
+			        </tr>
+			        </table>
+			    </div>
+			    <div class="panel" id="panel2" style="display:none">
+			      <!--<hr color="black">-->
+			        <table border="0" width="100%">
+			        <tr valign="top">
+			          <td>
+			            <!--<span class="head">This is Tab 2.</span>
+			            <br><br>
+			            <p>You can launch the Plugin from Libraries in the File menu or from the icon in the Navigation Toolbar (View->Toolbars->Navigation)</p>
+						<img id=toolbarImg>-->
+						<table class="loginTable" id="loginTable" style="width:100%">
+					        <tr>
+					            <td style="padding-bottom:0px;">Email (User Name)</td>
+					            <td style="padding-bottom:0px;"><input id="username" type="text"></td>
+					            <td style="padding-bottom:0px;">Password</td>
+					            <td style="padding-bottom:0px;"><input id="password" type="password"></td>
+					        	<td style="padding-bottom:0px;"><button id="buttons" onclick="LoginUserProcess()">Login</button></td>
+					        </tr>
+					            <td></td>
+					            <td style="padding-top:0px;"><a style="cursor:pointer" onclick="openURL('http://componentsearchengine.com/register.php')"><font color="blue"><u>Not Registered?</u></font></a></td>
+					            <td></td>
+					            <td style="padding-top:0px;"><a style="cursor:pointer" onclick="openURL('http://componentsearchengine.com/resetPassword.php')"><font color="blue"><u>Forgot Password?</u></font></a></td>
+					        	<td></td>
+						</table>
+							<tr>
+					        	<td class="Settings"><font style="color=red;">*</font>Library Path<input style="margin:0px 10px 0px 10px;" id="library" type="text" size="92" readonly="true"><button id="buttons" onclick="libraryBrowse()">Browse</button></td>	
+					       	</tr>
+					       	
+					       	<tr>
+					        	<td class="Settings">3D Model Path<input style="margin:0px 10px 0px 10px;" id="model_folder" type="text" size="90" readonly="true"><button id="buttons" onclick="modelFldrBrowse()">Browse</button></td>	
+					       	</tr>
+
+					       	<tr><td class="Settings"><input id="chk_LibMessages" type="checkbox" onClick="UpdateSettings()">Show library confirmation messages</td></tr>
+
+	                        <tr><td class="Settings"><input id="chk_ShowInstruction" type="checkbox" onClick="UpdateSettings()">Show instructions after Adding to Library</td></tr>
+
+	                        <tr><td class="Settings"><input id="chk_ClosePlugin" type="checkbox" onClick="UpdateSettings()">Close Plugin after Adding to Library</td></tr>
+	                        
+	                        <tr><td class="Settings"><input id="chk_Download3D" type="checkbox" onClick="UpdateSettings()">Download 3D models (STEP and VRML)</td></tr>
+	                        
+	                        <tr><td></td></tr>
+	                        
+	                        <tr><td class="Settings"><font style="color=red;">*</font> SamacSys_Parts.lib, SamacSys_Parts.mod and SamacSys_Parts.dcm files will be created in or used from the selected library folder</td></tr>
+						
+			          </td>
+			        </tr>
+			        </table>
+			    </div>
+			  </td>
+			</tr>
+	</body>
+</html>

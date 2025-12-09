@@ -1,0 +1,315 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP ATMEGA16A-AU
+D ATMEGA16A-AU, 8 bit AVR Microcontroller 16MHz 16, 512kB, B Flash, 1kb RAM, I2C SPI 44-Pin TQFP
+K
+F http://www.atmel.com/Images/Atmel-8154-8-bit-AVR-ATmega16A_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA328-MUR
+D MICROCHIP - ATMEGA328-MUR - 8 Bit MCU, AVR Family ATmega328 Series Microcontrollers, 20 MHz, 32 KB, 2 KB, 32 Pins, VQFN
+K
+F https://4donline.ihs.com/images/VipMasterIC/IC/ATML/ATML-S-A0002642585/ATML-S-A0002642585-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0
+$ENDCMP
+#
+$CMP SZESD7462N2T5G
+D ON SEMICONDUCTOR - SZESD7462N2T5G - DIODE, AEC-Q101, ESD PROTECTION, X2DFN
+K
+F https://componentsearchengine.com/Datasheets/2/SZESD7462N2T5G.pdf
+$ENDCMP
+#
+$CMP STD15P6F6AG
+D MOSFET Automotive-grade P-channel -60 V, 0.13 Ohm typ., -10 A STripFET F6 Power MOSFET in a DPAK package
+K
+F https://www.st.com/resource/en/datasheet/std15p6f6ag.pdf
+$ENDCMP
+#
+$CMP AP63356QZV-7
+D Switching Voltage Regulators DCDC Conv HV Buck V-DFN3020-13 T&R 3K
+K
+F https://www.diodes.com/assets/Datasheets/AP63356Q_AP63357Q.pdf
+$ENDCMP
+#
+$CMP INA180A1IDBVR
+D 26-V, low-/high-side, voltage output current sense amplifier
+K
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fina180
+$ENDCMP
+#
+$CMP INA180B1QDBVRQ1
+D AEC-Q100, 26-V, low-/high-side, voltage output current sense amplifier
+K
+F http://www.ti.com/lit/gpn/INA180-Q1
+$ENDCMP
+#
+$CMP STM32G030F6P6TR
+D MCU 32-bit ARM Cortex M0+ RISC 32KB Flash 2.5V/3.3V 20-Pin TSSOP T/R
+K
+F https://www.st.com/resource/en/datasheet/stm32g030f6.pdf
+$ENDCMP
+#
+$CMP M031LD2AE
+D 32-bit microcontroller is based on Arm Cortex -M0 core with 32-bit hardware multiplier/divider
+K
+F https://www.nuvoton.com/export/resource-files/DS_M031_M032_Series_EN_Rev2.02.pdf
+$ENDCMP
+#
+$CMP ADS1235QWRHMRQ1
+D Analog to Digital Converters - ADC Automotive 24-bit, 7.2-kSPS, 3-ch differential input, delta-sigma ADC with PGA and AC excitation 32-VQFN -40 to 125
+K
+F https://www.ti.com/lit/ds/symlink/ads1235-q1.pdf
+$ENDCMP
+#
+$CMP MXR7305VF
+D Accelerometers Accelerometer, 2 Axis, Analog
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/129827.pdf
+$ENDCMP
+#
+$CMP MC3479P
+D Driver, Stepper Motor; PDIP; 16; 0  degC
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-3/sf-00075942.pdf
+$ENDCMP
+#
+$CMP MC3479
+D Accelerometers Small Digital 3-axis Accelerometer Sensor
+K
+F http://www.memsic.com/uploadfiles/2020/08/20200827164636363.pdf
+$ENDCMP
+#
+$CMP ADS7049QDCURQ1
+D Ultra-Low-Power Ultra-Small-Size 12-Bit 2MSPS SAR ADC
+K
+F http://www.ti.com/lit/gpn/ads7049-q1
+$ENDCMP
+#
+$CMP ADS130B02QPWRQ1
+D Analog to Digital Converters - ADC Automotive 16-bit, 32-kSPS, two-channel, simultaneous-sampling, delta-sigma ADC
+K
+F https://www.ti.com/lit/ds/symlink/ads130b02-q1.pdf?ts=1677767636247&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS130B02-Q1%252Fpart-details%252FADS130B02QPWRQ1
+$ENDCMP
+#
+$CMP NUC131SD2AE
+D IC MCU 32BIT 68KB FLASH 64LQFP
+K
+F https://datasheet.datasheetarchive.com/originals/dk/DKDS-3/41355.pdf
+$ENDCMP
+#
+$CMP MC3635
+D Accelerometers Digital Output 3 Axis Acceleronmeter
+K
+F http://www.mcubemems.com/wp-content/uploads/2017/09/MC3635-Datasheet-APS-048-0044v1.5.pdf
+$ENDCMP
+#
+$CMP ADS1230IPW
+D 20-Bit, 80SPS, 1-Ch Delta-Sigma ADC for Resistive Bridge Sensors & Weigh Scales
+K
+F http://www.ti.com/lit/ds/symlink/ads1230.pdf
+$ENDCMP
+#
+$CMP YFF15PC1A224MT000N
+D 3-terminal Filters, Insertion Loss=40dB (4MHz to 1000MHz), LxWxT: 1x0.55x0.3mm
+K
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/3tf/catalog/3tf_commercial_power_yff-p_en.pdf
+$ENDCMP
+#
+$CMP NFM18PC105R0J3D
+D EMIFIL FILTER  NFM18P Murata NFM18C Series, Signal Filter, 6.3 V dc, 2A 0603 SMD 1.6 x 0.8 x 0.8mm
+K
+F https://www.murata.com/en-us/products/productdata/8796770730014/E10861.pdf?1441769417000
+$ENDCMP
+#
+$CMP DTSMF-31R-V-T_R
+D Tactile Switches SMT Type 3.5*6
+K
+F http://www.dip.com.tw/en/en-product-information/en-switch004/item/download/2482_e206d9b4ca91b6d07db9f3a2c47b5e9a
+$ENDCMP
+#
+$CMP ADUM3190WSRQZ
+D Isolation Amplifiers 2.5kV High Stability Isolated Error Amp
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3190.pdf
+$ENDCMP
+#
+$CMP AMC1311BDWVR
+D Precision Reinforced Isolated Amplifier With High CMTI for Current Sensing
+K
+F http://www.ti.com/lit/gpn/amc1311
+$ENDCMP
+#
+$CMP HJR-3FF-S-Z_24VDC
+D RELAY POWER 10A 24VDC PCB TYPE
+K
+F https://asset.conrad.com/media10/add/160267/c1/-/en/001366527DS01/datasheet-1366527-tianbo-electronics-hjr-3ff-s-z-24vdc-pcb-relay-24-v-dc-15-a-1-change-over-1-pcs.pdf
+$ENDCMP
+#
+$CMP 01530008Z
+D Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V
+K
+F http://www.littelfuse.com/data/en/data_sheets/153_pcmount.pdf
+$ENDCMP
+#
+$CMP FXLS8967AFR3
+D Accelerometers 3-axis MEMS accelerometer for Automotive security and convenience apps that require ultra-low power wake up on motion
+K
+F https://www.nxp.com/docs/en/data-sheet/FXLS8967AF.pdf
+$ENDCMP
+#
+$CMP DS9503P+
+D ESD Protection Diode with Resistors
+K
+F https://pdfserv.maximintegrated.com/en/ds/DS9503.pdf
+$ENDCMP
+#
+$CMP MS51FB9AE
+D MCU 8-bit 8051 CISC 16KB Flash 3.3V/5V 20-Pin TSSOP Bag
+K
+F https://www.nuvoton.com/export/resource-files/TRM_MS51_16KBFlash_Series_EN_Rev1.01.pdf
+$ENDCMP
+#
+$CMP MC33063AP1G
+D ON SEMICONDUCTOR - MC33063AP1G - DC-DC Switching Buck, Boost, Inverting Regulator, Adjustable, 3V-40Vin, 1.25V-40Vout, 1.5Aout, DIP-8
+K
+F http://www.onsemi.com/pub/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP MEM2012S50R0T001
+D 3-terminal Filters, Cut-Off frequency=50MHz, L x W x T :
+K
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/3tf/catalog/3tf_commercial_signal_mem2012s_en.pdf
+$ENDCMP
+#
+$CMP ECS-240-12-37B2-CKM-TR
+D Crystals ESR 50,FREQ 24,STABILITY +/-10ppm,TOLERANCE +/-10ppm,CL 12pF,AGING +/-2 ppm ,-20 C 70 C,10uW in typical (Max 100uW),2.00mm x 1.60mm
+K
+F https://ecsxtal.com/store/pdf/ECX-1637B2.pdf
+$ENDCMP
+#
+$CMP PD3S120L-7
+D Diodes Inc PD3S120L-7, SMT Schottky Diode, 20V 1A, 2-Pin PowerDI 323
+K
+F https://www.diodes.com/assets/Datasheets/ds30793.pdf
+$ENDCMP
+#
+$CMP 691401700006B
+D Wurth Elektronik 401B, 6 Way PCB Terminal Block
+K
+F https://www.we-online.com/catalog/datasheet/691401700006B.pdf
+$ENDCMP
+#
+$CMP 691401700003B
+D Wurth Elektronik, 401B 5mm Pitch, 3 Way PCB Terminal Block
+K
+F http://katalog.we-online.de/em/datasheet/6914017000xxB.pdf
+$ENDCMP
+#
+$CMP 691401700002B
+D Wurth Elektronik 401B, 2 Way PCB Terminal Block
+K
+F https://www.we-online.com/catalog/datasheet/691401700002B.pdf
+$ENDCMP
+#
+$CMP 742792030
+D Ferrite Beads WE-CBF 30 ? 10000 mA 0.003 ?
+K
+F https://pt.mouser.com/datasheet/2/445/742792030-2449195.pdf
+$ENDCMP
+#
+$CMP DMPH6250SQ-7
+D MOSFET MOSFET BVDSS: 61V-100V
+K
+F https://www.diodes.com/assets/Datasheets/DMPH6250SQ.pdf
+$ENDCMP
+#
+$CMP DGD0506AM10-13
+D Gate Drivers HV Gate Driver MSOP-10 T&R 2.5K
+K
+F https://www.diodes.com/assets/Datasheets/DGD0506A.pdf
+$ENDCMP
+#
+$CMP 726386-2
+D AMP - TE CONNECTIVITY - 726386-2 - TAB, STRAIGHT, 6.3X0.8MM
+K
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F1-726386-2
+$ENDCMP
+#
+$CMP J115F1K1AH12VDCSK2.25
+D General Purpose Relay SPST-NO (1 Form A) 50A, Coil Through Hole, 2.25W
+K
+F https://g.componentsearchengine.com/Datasheets/0/17260765.pdf
+$ENDCMP
+#
+$CMP 1704936
+D Phoenix Contact MKDS 5/3-7.62, 3 Way PCB Terminal Block
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA18/1075075.pdf
+$ENDCMP
+#
+$CMP ALDP124W
+D General Purpose Relay SPST-NO (1 Form A) 24VDC Coil Through Hole
+K
+F https://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf
+$ENDCMP
+#
+$CMP OS102011MS2QN1
+D Switch Slide Miniature SPDT 0.1A 12VDC Through Hole Slide Switch SPDT On-On 0.1 A@ 12 V dc Slide
+K
+F https://www.ckswitches.com/media/1428/os.pdf
+$ENDCMP
+#
+$CMP 2222
+D Headers & Wire Housings GPIO Header for Raspberry Pi A+/B+/Pi 2/Pi 3 - 2x20 Female Header
+K
+F https://cdn-shop.adafruit.com/product-files/2222/00587.pdf
+$ENDCMP
+#
+$CMP 691256610002
+D 2 Position Wire to Board Terminal Block Horizontal with Board 0.400" (10.16mm) Through Hole
+K
+F https://www.mouser.de/datasheet/2/445/691256610002-1719672.pdf
+$ENDCMP
+#
+$CMP 1773976
+D PCB terminal block, nominal current: 76 A, rated voltage (III/2): 1000 V, nominal cross section: 16 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: MKDSP 10N, pitch: 10.16 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear double pinning, Solder pin [P]: 5 mm, type of packaging: packed in cardboard. The article can be aligned to create different nos. o
+K
+F http://www.phoenixcontact.com/de/produkte/1773976/pdf
+$ENDCMP
+#
+$CMP VP0265840000G
+D BENVP0265840000G
+K
+F https://www.digikey.ca/en/products/detail/amphenol-anytek/VP0265840000G/10378270
+$ENDCMP
+#
+$CMP 691219610002
+D Wurth Elektronik, 2196 10.16mm Pitch, 2 Way PCB Terminal Block
+K
+F http://uk.rs-online.com/web/p/products/1919153P
+$ENDCMP
+#
+$CMP ASM330LHHTR
+D STMICROELECTRONICS - ASM330LHHTR - MEMS MOD, 3-AXIS GYROSCOPE/ACCELEROMETER
+K
+F https://www.st.com/resource/en/datasheet/asm330lhh.pdf
+$ENDCMP
+#
+$CMP MJTP1212
+D Tactile Switches 12mm square tact flush actuator
+K
+F https://media.digikey.com/pdf/Data%20Sheets/APEM%20Components%20PDFs/MJTP%20Series-12MM.pdf
+$ENDCMP
+#
+$CMP 1734510-1
+D Body Features: Offset 0 MM | Shell Plating Finish Matte | Shell Plating Material Tin over Nickel | Connector Profile Mini | Configuration Features: Number of Ports 1 | Number of Positions 5 | Contact Features: Contact Mating Area Plating Material Gold Flash over Palladium Nickel | Contact Current Rating (Max) 1 AMP | Contact Mating Area Plating Material Thickness 29.92 MICIN | Contact Mating Area Plating Material Thickness .76 MICM | Dimensions: PCB Thickness (Recommended) 1.6 MM | PCB Thickness (Recommende
+K
+F https://componentsearchengine.com/Datasheets/1/1734510-1.pdf
+$ENDCMP
+#
+#End Doc Library

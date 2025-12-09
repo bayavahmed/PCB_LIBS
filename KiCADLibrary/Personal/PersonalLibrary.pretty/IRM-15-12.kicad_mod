@@ -1,0 +1,153 @@
+(footprint "IRM-15-12"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.meanwell.com/webapp/product/search.aspx?prod=IRM-15")
+	(tags "ACDC-Converter 15W   Meanwell IRM-15")
+	(property "Reference" "PS1"
+		(at -0.08 -12.58 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cf53c1cb-945f-437b-bcd3-2b5e63c58839")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IRM-15-12"
+		(at -1.5 15 0)
+		(layer "F.Fab")
+		(uuid "c805c31f-d1fa-4de5-ae9b-6d0a36bc8fb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "IRM-15-12"
+		(at -25.946 -15.864 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7ccb414-91d1-442a-a7e4-23457ddd132a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/IRM-15-spec.pdf"
+		(at -10.452 -18.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1fb82b8-2269-4fe9-b579-b6a1b6c17c07")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "12V, 1250mA, 15W, Isolated, AC-DC, 222A(IRM15)"
+		(at -20.358 -20.944 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fbafbeb-6dbe-42d1-94d7-e43f420f8eed")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -26.2 -13.6)
+		(end 26.2 13.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "73280985-e9da-4b39-89b1-ab6388bbd55f")
+	)
+	(fp_line
+		(start -26.1 -1.7)
+		(end -25.1 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5793b833-0295-4dc1-bd7c-c265fe8334c4")
+	)
+	(fp_line
+		(start -26.1 0.3)
+		(end -25.1 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3142f66-7acc-47bc-adf1-2425f7cc0a55")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.08 -0.22 0)
+		(layer "F.Fab")
+		(uuid "108aae9f-5142-44cb-8e96-d3a79a633a7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -22.8 -10.4)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2fa5a158-bb2d-4c24-8c07-0e5180554496")
+	)
+	(pad "2" thru_hole circle
+		(at -22.8 10.4)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9c0c173-9cb9-42f2-a79f-0d1bc54ed7ac")
+	)
+	(pad "3" thru_hole circle
+		(at 22.2 10.4)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6ce52647-d695-48ba-9cfa-c107d154924a")
+	)
+	(pad "4" thru_hole circle
+		(at 22.2 2.4)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e28a979b-50df-43a4-ad84-ccf1477e8690")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_MeanWell-IRM-10-xx_THT.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

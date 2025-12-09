@@ -1,0 +1,118 @@
+(footprint "Fuse_Bourns_MF-R900"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "PTC Resettable Fuse, Ihold = 9.0A, Itrip=15.3A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf")
+	(tags "ptc resettable fuse polyfuse THT")
+	(property "Reference" "F3"
+		(at 2.55 -1.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ab272344-4c39-40e4-bf12-f4fb7fe3d34f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FSMD010-1206-R"
+		(at 0 -10.16 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12b270fa-759a-4823-85c6-d74a80c029c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Fuse_Bourns_MF-R900"
+		(at 0 -8.89 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "125f8f72-60ce-401c-a23f-deae6260526e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/449059_151256.pdf"
+		(at 0 -12.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a91e4ec-2357-4343-8e98-4a92320d710a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "PTC 60V 100mA 1206"
+		(at 0 -15.24 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef9c367e-d3bc-4530-8215-0cd0a15240df")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 12.1 -1.5)
+		(end -12.1 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6b0e163d-a2ab-4c05-9273-7e7337fe4d7a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.08 0)
+		(layer "F.Fab")
+		(uuid "be618f5e-cff3-49fd-99a6-f1cfad891334")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 2.01 2.01)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cd83cd19-d96a-432a-9efa-ca8026d27f95")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.01 2.01)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d344049-cfbc-419c-b540-2f26fae53e11")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_MF-RG900.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

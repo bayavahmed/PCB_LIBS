@@ -1,0 +1,217 @@
+(footprint "welding_Connector_TT44112092-1600"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J3"
+		(at -12.4 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e97b313c-378a-42cb-bee1-23acddd3e2be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Conn_01x01"
+		(at -13 7.3 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19b12610-c87d-464d-8bc3-e63718a4983f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "welding_Connector_TT44112092-1600"
+		(at -2.8 8.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8eb9f87e-d1cb-42bf-9a0b-7b9f1db22784")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.6 -1.4 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c711dcda-1d92-4e30-96a7-98b13091b952")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac21cc9a-ba49-4b0f-a9e4-eba27731296b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e5cac4f-bdff-4bd7-a70e-930b2d7209f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bc08e04-0e12-4e69-a935-2f27f6bfad0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00f6509d-5833-4b97-841c-cef5dd5f2f96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5628e41-0eb8-4b55-9bba-18323da3f2b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13a50fec-ed1d-48aa-81b6-fbca5da59fc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17af3f72-5adf-437c-877f-6e1e1399c7ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b57ed209-c479-4aa8-ac70-18c0ddbb3b2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.6 -4.6)
+		(end 5.6 4.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "af032ca6-d46e-40f2-b5b7-23d3e597bceb")
+	)
+	(pad "1" thru_hole oval
+		(at -5 -2.5 180)
+		(size 2.5 3)
+		(drill oval 1.5 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d37d91c2-af92-42df-8d27-8f32e462c062")
+	)
+	(pad "1" thru_hole oval
+		(at -5 2.5 180)
+		(size 2.5 3)
+		(drill oval 1.5 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ee4521b1-27da-4060-bec0-0c402684f0fe")
+	)
+	(pad "1" thru_hole oval
+		(at 5 -2.5 180)
+		(size 2.5 3)
+		(drill oval 1.5 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e270c1fb-3d3c-41fc-8fef-f856e308bd0f")
+	)
+	(pad "1" thru_hole oval
+		(at 5 2.5 180)
+		(size 2.5 3)
+		(drill oval 1.5 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eea324d6-5bc4-4cf8-bc1a-ce9e79345641")
+	)
+	(model "${PERSONAL}/weldingTerm11,5x9,2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

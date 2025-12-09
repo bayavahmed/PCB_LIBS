@@ -1,0 +1,183 @@
+(footprint "oled091inch"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads")
+	(tags "Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI ")
+	(property "Reference" "J5"
+		(at -60.45 -51.838 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "882431d1-6d5a-4894-b40d-38b1a09986cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OLED_1.3inch"
+		(at -60.45 -16.838 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30ef9c17-0cdc-4fc1-93d2-4c3b4dd28cd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Display:Adafruit_SSD1306"
+		(at -69.34 -46.838 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df069f23-5e8b-4c86-ba3b-0bcb05c2d524")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -69.34 -46.838 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54d2fd94-864b-48a0-b96f-dadcb6552951")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 -15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a6c4cc9-5b0d-43ac-b069-262fdeb76078")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -19 -6)
+		(end -14 -4.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "dda0f10e-c00a-4a59-8276-3705b3072c1e")
+	)
+	(fp_rect
+		(start -19 -6)
+		(end 19 6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7287fac2-3b3c-4b57-a13e-4142dd34ae47")
+	)
+	(fp_rect
+		(start -19 4.8)
+		(end -14 6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "28409b58-45b1-47eb-8845-4a54bf03e4d5")
+	)
+	(fp_rect
+		(start -14 -6)
+		(end 16 6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ab5f5dfe-29a6-49aa-a5c7-6005b5795bdb")
+	)
+	(fp_rect
+		(start -11.9 -3.85)
+		(end 10.484 1.734)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "af545192-c6a7-4d72-9402-8b87a363ea1a")
+	)
+	(fp_text user "D C V G"
+		(at -15.2 0 -90)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "4b3ce15f-e445-4712-841a-0a0b4d49d969")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -17.5 3.81 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7567e89-3d6e-483b-be6f-55cd31049c31")
+	)
+	(pad "2" thru_hole circle
+		(at -17.5 1.27 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22d6a3eb-29ac-4f0a-80e4-d8216834e0ff")
+	)
+	(pad "3" thru_hole circle
+		(at -17.5 -1.27 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "efcc45b4-b911-401a-bf5e-29650bbc43db")
+	)
+	(pad "4" thru_hole circle
+		(at -17.5 -3.81 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e97baaff-06a6-44cb-8b24-ebb5ccbec741")
+	)
+	(model "${PERSONAL}/OLED_0.91_128x32.stp"
+		(offset
+			(xyz 0 0 2.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

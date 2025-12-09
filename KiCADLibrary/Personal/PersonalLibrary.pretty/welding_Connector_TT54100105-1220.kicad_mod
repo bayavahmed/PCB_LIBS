@@ -1,0 +1,126 @@
+(footprint "welding_Connector_TT54100105-1220"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -12.4 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5846226c-b058-44e0-81ca-824c4a83e0e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "welding_Connector_TT54100105-1220"
+		(at 2.2 0.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "915f6c74-a743-4aa3-aef7-d88ba78b9ab9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "welding_Connector_TT54100105-1220"
+		(at 2.4 -1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a9dfdf9-93dc-4c2a-b7fe-405841bd5d37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C45384752.pdf"
+		(at 1.4 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fff237a-642c-4413-8a97-44aec0016d8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "caa55d2e-db45-4bce-8712-cee9ca52d3fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5 -5.25)
+		(end 5 5.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2abfb87c-a49c-4873-9b8a-33962ca5ed50")
+	)
+	(pad "1" thru_hole oval
+		(at -3 -4.5 90)
+		(size 2 3)
+		(drill oval 1.5 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "084e9e7b-b60d-4a19-a901-0ec5b45d2e4b")
+	)
+	(pad "1" thru_hole oval
+		(at -3 4.5 90)
+		(size 2 3)
+		(drill oval 1.5 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19d29eec-53b3-4b37-af28-35d68b1fdb59")
+	)
+	(pad "1" thru_hole oval
+		(at 3 -4.5 90)
+		(size 2 3)
+		(drill oval 1.5 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "97a33a60-554d-41e6-b803-b20c669849da")
+	)
+	(pad "1" thru_hole oval
+		(at 3 4.5 90)
+		(size 2 3)
+		(drill oval 1.5 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6ecfaa1f-9ca9-453f-8022-8fec7ed141fb")
+	)
+	(model "${PERSONAL}/weldingTerm10,5x10.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

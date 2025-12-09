@@ -1,0 +1,142 @@
+(footprint "LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED SMD 1206 (3216 Metric), reverse mount, square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "diode reverse")
+	(property "Reference" "D11"
+		(at 0 -2.145 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2516c722-ea43-46eb-bed6-120843c4966e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED"
+		(at 0 2.145 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd4e6b4d-81f4-4cf7-9eaa-f0a8fe59f8c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee98d279-8d42-4445-a216-ced17780e6aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70565e69-8b05-4c41-a7e0-177925155703")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a588609-e19d-4749-97fb-2d513dee4505")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end -1.2 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8afd5393-c102-4226-aa6e-1adce17cf053")
+	)
+	(fp_line
+		(start -1.6 -0.4)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ba7ee40-c45b-4388-92e7-8cdf740ed18b")
+	)
+	(fp_line
+		(start -1.2 -0.8)
+		(end -1.6 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d6cfdd9-529e-4c48-b35a-d08c83cf7e57")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d48e303-6899-42df-b383-61ff8e32381f")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0)
+		(size 1.7 2)
+		(drill oval 1.8 2.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "af00e4a7-91db-4c0e-871d-17ca9f6e2679")
+	)
+	(pad "1" smd roundrect
+		(at -1.55 0)
+		(size 0.95 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "c8e50f2f-702c-4489-93da-958566e5b558")
+	)
+	(pad "2" smd roundrect
+		(at 1.55 0)
+		(size 0.95 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "03d55adf-15a9-497d-956d-953e68aeff8a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 -0)
+		)
+	)
+)

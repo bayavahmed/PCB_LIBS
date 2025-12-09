@@ -1,0 +1,363 @@
+(footprint "BH-321"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2xAA cell battery holder, Memory Protection Devices P/N BC2AAPC, http://www.memoryprotectiondevices.com/datasheets/BC2AAPC-datasheet.pdf")
+	(tags "AA battery cell holder")
+	(property "Reference" "BT1"
+		(at 28.5 -16.74 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bb15f23b-33ff-4deb-90e2-bd0bd8bc261e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery_Cell"
+		(at 12.3 -2.6 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1221006a-cdd0-4c57-b513-79093228ad14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Battery:BatteryHolder_MPD_BC2AAPC_2xAA"
+		(at -25.1 3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "690db868-8e16-4bd2-82b4-adb5aecaf9c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 5.05 -6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2438bc92-e9f6-4bc6-a798-d61067010f03")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Single-cell battery"
+		(at 30.29 -12.48 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "442794d0-5305-4509-b143-af28a412250d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 18.975 -7.9)
+		(end 20.245 -7.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b21e748-8516-435d-b724-7efeae44d335")
+	)
+	(fp_line
+		(start 18.975 -5.36)
+		(end 18.975 -7.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fab078fe-8239-4ed0-8341-1eec09323190")
+	)
+	(fp_line
+		(start 18.975 4.42)
+		(end 18.975 9.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e4735ab-ad50-40eb-b445-ca87dd4c5e25")
+	)
+	(fp_line
+		(start 18.975 9.5)
+		(end 36.755 9.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fa90870-795e-4b56-9923-9ba17155edc8")
+	)
+	(fp_line
+		(start 20.245 -9.17)
+		(end 38.025 -9.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c9eab4e-ccac-4937-abd1-84c2a1a39953")
+	)
+	(fp_line
+		(start 20.245 -7.9)
+		(end 20.245 -9.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8aecfa75-b6cc-4ff4-bfec-3c350e6da026")
+	)
+	(fp_line
+		(start 20.245 -5.36)
+		(end 18.975 -5.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6dccbbae-3f9e-40ae-8c6e-7dbd76582128")
+	)
+	(fp_line
+		(start 20.245 -4.09)
+		(end 20.245 -5.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8dc6ffb3-8331-49de-8b95-ab2cf4bb82b4")
+	)
+	(fp_line
+		(start 36.755 4.42)
+		(end 18.975 4.42)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "996df1d9-cd26-43c6-ab99-7f33c04a71aa")
+	)
+	(fp_line
+		(start 36.755 5.69)
+		(end 36.755 4.42)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e56102c7-6033-49f8-9ba4-4ec768537998")
+	)
+	(fp_line
+		(start 36.755 8.23)
+		(end 38.025 8.23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6e1af85-52ba-4456-8e56-b7ecfd62a5d9")
+	)
+	(fp_line
+		(start 36.755 9.5)
+		(end 36.755 8.23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93111f75-15b5-42ca-821f-678e5b1cb210")
+	)
+	(fp_line
+		(start 38.025 -9.17)
+		(end 38.025 -4.09)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "daeb7c58-494a-4fe5-a86a-f011c9cfd6b5")
+	)
+	(fp_line
+		(start 38.025 -4.09)
+		(end 20.245 -4.09)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3120238f-cf2a-4b76-9b22-fe7834ffb9c8")
+	)
+	(fp_line
+		(start 38.025 5.69)
+		(end 36.755 5.69)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6953f58c-ddbc-4054-8971-38b54dd84c3f")
+	)
+	(fp_line
+		(start 38.025 8.23)
+		(end 38.025 5.69)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e923b01b-34db-4fd5-a6ea-b7c0a4839356")
+	)
+	(fp_rect
+		(start 0 -16.05)
+		(end 57.1 16.05)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "08a0ca58-7eba-4074-aa48-a6747c3c20a0")
+	)
+	(fp_text user "-"
+		(at 39.295 -6.63 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6782d003-faa2-4975-ba28-653f61c17a88")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -3.2 -6.9 0)
+		(layer "F.SilkS" knockout)
+		(hide yes)
+		(uuid "6c4f0762-61b5-449a-b423-ad47d817613b")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1.25)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 39.295 6.96 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6f963435-584c-4189-86ab-6e320d25c60a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 17.705 -6.63 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9d596a17-9762-4a21-b1e1-126d19e916da")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 17.705 6.96 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e190c5e9-a67a-4f7a-a7e9-f243b6abe135")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at -2.95 6.4 0)
+		(layer "F.SilkS" knockout)
+		(hide yes)
+		(uuid "fb03c34c-ea6e-4ee1-ac19-d3578d79cc17")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1.25)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 28.5 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cd17f40-b40d-49a8-9d08-cd18a276309b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 28.5 0)
+		(size 3.65 3.65)
+		(drill 3.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "733587ee-ba18-496f-a253-48a788ce1cc4")
+	)
+	(pad "1" thru_hole rect
+		(at 2.6 -6.625)
+		(size 2.17 2.17)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae1e09db-946d-4236-a653-09e1931b7ad2")
+	)
+	(pad "2" thru_hole circle
+		(at 2.6 6.625)
+		(size 2.17 2.17)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "89f482d8-ab6f-4167-a96c-bdc3a9e8f2d2")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_MPD_BC2AAPC_2xAA.wrl"
+		(offset
+			(xyz 2.5 6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

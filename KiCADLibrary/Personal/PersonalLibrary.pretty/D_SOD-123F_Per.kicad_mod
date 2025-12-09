@@ -1,0 +1,179 @@
+(footprint "D_SOD-123F_Per"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "D_SOD-123F, Alternate KiCad Library")
+	(tags "D_SOD-123F")
+	(property "Reference" "DZ4"
+		(at 0 -2.159 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3b3c7991-2a8e-4d32-b890-1a5f908840c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3V"
+		(at 0 2.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d02b3c27-5350-4c29-98eb-5a7c2948d33a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "D_SOD-123F_Per"
+		(at -0.1 5.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ceee485f-c6f2-4f41-9051-973041cd7f81")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95592fa9-8db7-4c1c-afc8-e372df933e01")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "SOD-123F Zener diode, 3V, 375mW, NOW NEXPERIA BZT52H-B3V0 - ZENER"
+		(at -0.1 5.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69280923-3566-4ec9-a5f4-2a715f8c0525")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4 -0.8128)
+		(end 1.4 -0.8128)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99a7c3c9-3f1f-4ba4-abd7-1a8feffe98cb")
+	)
+	(fp_line
+		(start -1.4 -0.5588)
+		(end -1.4 -0.8128)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46d90bc5-62b0-4cf4-8447-dc2d2e0bf9ab")
+	)
+	(fp_line
+		(start -1.4 0.5588)
+		(end -1.4 0.8128)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a1299a6-b0e8-404c-896f-541ca75f15b9")
+	)
+	(fp_line
+		(start 1.4 -0.5588)
+		(end 1.4 -0.8128)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc29b785-50a1-4b11-9249-c104e1cd8880")
+	)
+	(fp_line
+		(start 1.4 0.5588)
+		(end 1.4 0.8128)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4688fa85-cf1e-4d01-b0c5-532a28d6881c")
+	)
+	(fp_line
+		(start 1.4 0.8128)
+		(end -1.4 0.8128)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bc463c7-7340-41e4-9b75-27b888ab2d05")
+	)
+	(fp_circle
+		(center -0.5588 0)
+		(end -0.3088 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d9749634-aed9-4d98-9026-c061171c8254")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1016 3.6322 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "99b743cb-a851-4f67-8a69-95948f56b8c6")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.4 0)
+		(size 1.3 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2272727273)
+		(solder_mask_margin 0.05)
+		(uuid "875a975d-5f9c-43e3-89d0-cf7c11094de0")
+	)
+	(pad "2" smd roundrect
+		(at 1.4 0)
+		(size 1.3 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2272727273)
+		(solder_mask_margin 0.05)
+		(uuid "d9684925-ef56-418b-8ee2-de68ba672d03")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

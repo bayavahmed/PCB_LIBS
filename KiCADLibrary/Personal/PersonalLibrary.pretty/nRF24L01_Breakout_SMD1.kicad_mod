@@ -1,0 +1,148 @@
+(footprint "nRF24L01_Breakout_SMD1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "nRF24L01 breakout board")
+	(tags "nRF24L01 adapter breakout")
+	(property "Reference" "U1"
+		(at 19.05 6.35 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "03e84344-4f83-46f4-ba20-955ceb525fbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NRF24L01"
+		(at 20.5 9.66 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "815f7f66-ac73-45f2-8386-0fda5e015a7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "nRF24L01_Breakout_SMD1"
+		(at 17.78 21.59 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e8c33f0-da3a-4af9-a5e6-19d85c6c7ce1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf"
+		(at 17.78 21.59 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25b83447-c0a0-4587-868f-66ff95753f01")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Ultra low power 2.4GHz RF Transceiver, Carrier PCB"
+		(at 17.78 21.59 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbd6341e-2d54-4b97-aea7-069229468663")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.27 -5.365)
+		(end 16.73 6.635)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "62c38c85-0155-42cb-8967-971218bddb6f")
+	)
+	(pad "1" smd oval
+		(at 0 5.08)
+		(size 3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8d446697-7213-4355-857c-feba4d25d2ff")
+	)
+	(pad "2" smd oval
+		(at 0 -3.81)
+		(size 3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f0a6349b-5e7b-486c-b93d-dd472f05452d")
+	)
+	(pad "3" smd oval
+		(at 0 -2.54)
+		(size 3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "90cc11a8-e840-498c-9afd-d7b6b09cf5e7")
+	)
+	(pad "4" smd oval
+		(at 0 -1.27)
+		(size 3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "20a3c85e-6074-4bf7-9b8a-5b33f334f1cf")
+	)
+	(pad "5" smd oval
+		(at 0 0)
+		(size 3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "725dc768-87c9-4c0f-b560-f20c6e2e1fb8")
+	)
+	(pad "6" smd oval
+		(at 0 1.27)
+		(size 3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5e4811d7-4b95-43d2-aad0-00f9505d31f3")
+	)
+	(pad "7" smd oval
+		(at 0 2.54)
+		(size 3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d439f0e9-4cab-4cb5-b022-6a6de93392d5")
+	)
+	(pad "8" smd oval
+		(at 0 3.81)
+		(size 3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8dd6b786-2da9-4c31-a776-eebfed562471")
+	)
+	(pad "10" smd oval
+		(at 11.43 7.62 90)
+		(size 2.54 11.965)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a2204ecb-0936-4951-ade4-d8de96a0d889")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/nRF24L01_Breakout.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

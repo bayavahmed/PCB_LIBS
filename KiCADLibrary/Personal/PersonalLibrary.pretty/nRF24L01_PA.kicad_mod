@@ -1,0 +1,219 @@
+(footprint "nRF24L01_PA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "nRF24L01 breakout board")
+	(tags "nRF24L01 adapter breakout")
+	(property "Reference" "U1"
+		(at -16.51 -3.81 -90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ddb28693-7b8e-45b8-848a-f3887ab500fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NRF24L01_PA"
+		(at -19.05 -7.62 -90)
+		(layer "F.Fab")
+		(uuid "a390c594-f435-40ad-baaf-0162e3f76943")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "nRF24L01_PA"
+		(at -0.7 22 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "633ae945-fc3b-48b6-86b9-47ac5bea5107")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf"
+		(at -0.2 24.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91b89c87-04e4-4731-b722-de5721a5d97e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Ultra low power 2.4GHz RF Transceiver, Carrier PCB"
+		(at 0.5 28.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0d917df-6fbd-4b46-bb66-256d252a5ce0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.7 0)
+		(end 5.08 -1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2f7a4367-30cc-4f2e-b619-4e3b557c24af")
+	)
+	(fp_line
+		(start -5.08 -1.27)
+		(end 7.7 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c6f1f804-1f3c-40a6-882c-cba6f8a450d4")
+	)
+	(fp_rect
+		(start -7.7 -40.9)
+		(end 7.7 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "56a543d8-82b9-43ff-8557-4bcf76866bfe")
+	)
+	(fp_rect
+		(start -5.08 -6.35)
+		(end 5.08 -1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fa75c222-92b2-40ad-9f76-4686a10d3da6")
+	)
+	(fp_rect
+		(start -3.125 -48.7)
+		(end 3.125 -40.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "921e113f-5999-490e-a06f-10b3887fbbc6")
+	)
+	(fp_poly
+		(pts
+			(xy -3.81 -0.336) (xy -3.57 0) (xy -4.05 0) (xy -3.81 -0.336)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "5ed84cc1-58a6-4ee4-b19c-7bdd36a943a5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -13.97 -2.54 -90)
+		(layer "F.Fab")
+		(uuid "221a8ff1-1daa-481c-b461-3b420b80e5b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 -2.54 90)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a731cfa-3cbe-48ba-b9be-28fc18ccbd21")
+	)
+	(pad "2" thru_hole circle
+		(at -3.81 -5.08 90)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a6ca0303-315a-4519-8513-d752a1675008")
+	)
+	(pad "3" thru_hole circle
+		(at -1.27 -2.54 90)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "654aced4-f4f6-4e4f-b366-d7d10163c1f7")
+	)
+	(pad "4" thru_hole circle
+		(at -1.27 -5.08 90)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bb4c5f90-80a5-42f4-86b7-a84bebcfdd5b")
+	)
+	(pad "5" thru_hole circle
+		(at 1.27 -2.54 90)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "282d86fe-2746-49e4-b9a6-3cb6b009c59f")
+	)
+	(pad "6" thru_hole circle
+		(at 1.27 -5.08 90)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12009a4b-dc72-43cf-a0eb-de31f6e70801")
+	)
+	(pad "7" thru_hole circle
+		(at 3.81 -2.54 90)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a73cadd-a748-44f1-9b21-a55aa9618a09")
+	)
+	(pad "8" thru_hole circle
+		(at 3.81 -5.08 90)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf5bcfbc-74ce-454c-8449-2401a305b993")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/nRF24L01_Breakout.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

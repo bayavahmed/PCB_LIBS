@@ -1,0 +1,106 @@
+(footprint "FRU600-30F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "ptc resettable fuse polyfuse THT")
+	(property "Reference" "F"
+		(at -2.1 -2.2 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9ecd614b-689b-45cd-9017-c3f373264a5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse 6A 30V"
+		(at 0 -10.16 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c74657f-b108-45ef-a0f2-936b83fb89fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "FRU600-30F"
+		(at 0 -8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "129f70f6-c449-4942-9a70-c9e1cd32ce7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/631989_921031.pdf"
+		(at 0 -12.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42017107-5abd-4361-97fc-76594de0ce3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "FRU600-30F"
+		(at 0 -15.24 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7c1984f-3f45-4c1e-88d8-b5562a4211ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 8.25 -1.5)
+		(end -8.25 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ea4e8164-4c62-4458-9588-d4ee9ab9ae61")
+	)
+	(pad "1" thru_hole circle
+		(at -5.1 -0.6)
+		(size 2.01 2.01)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3abcb867-9fce-4d2f-9597-a21008982ade")
+	)
+	(pad "2" thru_hole circle
+		(at 5.1 0.6)
+		(size 2.01 2.01)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b3e22924-1a2c-4581-bd12-e686d7a88ccf")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/Fuse.3dshapes/Fuse_BelFuse_0ZRE_0ZRE0150FF_L23.4mm_W5.3mm.wrl"
+		(offset
+			(xyz -5.25 0.75 -0.5)
+		)
+		(scale
+			(xyz 1 0.8 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

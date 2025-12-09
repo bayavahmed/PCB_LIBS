@@ -1,0 +1,165 @@
+(footprint "limitSwitch_Slotlu"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf")
+	(tags "switch single-pole double-throw SPDT würth wurth")
+	(property "Reference" "REF**"
+		(at -21.9 -13.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "91f8e7c5-1ab9-4140-873f-919408a983c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "limitSwitch_Slotlu"
+		(at -21.9 -6.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0188cd0c-0317-45bc-8596-298ac8ec5a93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "limitSwitch_Slotlu"
+		(at -21.9 -10.56 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b1113a5-9095-463c-ac64-d0f5196bf183")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -21.9 -10.56 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd0996dc-2584-4f0a-969c-7a83aa7f0321")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -21.9 -10.56 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0dd8ead-c29e-4913-b689-efe416fb9c16")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 4 1)
+		(end 5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d2357a9e-3fdc-4f64-974c-2395e81d48f8")
+	)
+	(fp_line
+		(start 5 -1.4)
+		(end 5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "02120c32-fca8-4f9f-88f3-1f3164b243ba")
+	)
+	(fp_line
+		(start 5 2)
+		(end 4 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2526d6ac-a061-42ba-a710-193f5f61ba7a")
+	)
+	(fp_line
+		(start 5 2)
+		(end 6.1 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c5109672-322d-4626-a842-0cc8633f4f33")
+	)
+	(fp_line
+		(start 6.1 0.9)
+		(end 5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bbe29923-ec54-4676-86a9-f2ae93990363")
+	)
+	(fp_rect
+		(start -10.8 -3.3)
+		(end 9.8 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0113cbea-bea6-4f89-96f5-be5e57cd191a")
+	)
+	(pad "1" thru_hole oval
+		(at 7.3 0)
+		(size 1.5 4.5)
+		(drill oval 0.8 3.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "749af054-76a5-4652-b00f-38f92465b6f8")
+	)
+	(pad "2" thru_hole oval
+		(at -8.7 0)
+		(size 1.5 4.5)
+		(drill oval 0.8 3.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5edfecf2-dfb6-48da-8ec1-ce45c3dada6f")
+	)
+	(pad "3" thru_hole oval
+		(at 0 0)
+		(size 1.5 4.5)
+		(drill oval 0.8 3.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a7d9de32-0ca3-4211-8764-e72d220127ec")
+	)
+	(model "${PERSONAL}/limitSwitch.step"
+		(offset
+			(xyz 3.955 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
