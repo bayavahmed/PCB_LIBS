@@ -1,0 +1,138 @@
+(footprint "BX-BD12D02C3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf")
+	(tags "switch single-pole opposite-side-connection double-throw SPDT würth wurth")
+	(property "Reference" "SW?"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ff4451c5-9437-4fc0-84e2-5f31fd3ce161")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Bossie BX-BD12D02C3"
+		(at 0 3.81 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55cac626-eedd-4ed2-aafc-5361566fe858")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C49446956.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "529c86ea-5f59-4643-9e8d-69c14a6a3e27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SPDT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24565a03-13a5-40e9-9929-2333aaf46f2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.35 2.2)
+		(end 4.35 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0903601d-6942-4f91-8904-6b0117fe1d43")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.5 0)
+		(layer "F.Fab")
+		(uuid "6cc2259d-813b-4f20-9ba2-c749a4555751")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "a9061aa4-85b6-4b96-a0d3-aeffa8e630be")
+	)
+	(pad "2" thru_hole circle
+		(at -2 0)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "8d9e7fd3-dbbd-4a77-9ad3-d390d74a2037")
+	)
+	(pad "3" thru_hole circle
+		(at 2 0)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d8b092a4-ad59-4066-b45f-f8bee834d223")
+	)
+	(pad "4" thru_hole circle
+		(at -4.15 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "cec67471-4ac2-4571-929c-41e112b11e37")
+	)
+	(pad "4" thru_hole circle
+		(at 4.15 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "21bf9097-e676-47d4-922d-b64280841de8")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/bayav/Documents/GitHub/PCB_LIBS/KiCADLibrary/Personal/3DMODELS/OS102011MS2QN1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
