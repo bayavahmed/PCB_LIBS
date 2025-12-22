@@ -1,0 +1,195 @@
+(footprint "TS5208A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CK components KSC6 tactile switch https://www.ckswitches.com/media/1972/ksc6.pdf")
+	(tags "tactile switch ksc6")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ab48d446-642b-4b32-a4f9-b413ddbb7782")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TS5208A"
+		(at -0.9 11.05 0)
+		(layer "F.Fab")
+		(uuid "2fb27edc-7abb-4ce4-b9a6-4148576f2f20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37e543eb-3382-4723-99c8-17931df24c27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f157f68-1176-43e4-a899-9806bd831430")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.4 -1.5)
+		(end -1.5 -2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e9931c6e-4bf9-42b8-aa12-c9e9cd05c06c")
+	)
+	(fp_line
+		(start -2.4 1.5)
+		(end -2.4 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13e56c2f-dd70-47af-9347-f3ee84c0ee78")
+	)
+	(fp_line
+		(start -1.5 2.4)
+		(end -2.4 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9eda7ec3-d7ee-4ac7-a59e-3c7fe88ca450")
+	)
+	(fp_line
+		(start 1.5 -2.4)
+		(end -1.5 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb56bc9e-68b9-4e41-9714-406f3f358ba6")
+	)
+	(fp_line
+		(start 1.5 2.4)
+		(end -1.5 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8235b42-666b-4a10-a748-c8c527e1557d")
+	)
+	(fp_line
+		(start 1.5 2.4)
+		(end 2.4 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8b4e1707-7dae-4c24-9c22-921ca099cd23")
+	)
+	(fp_line
+		(start 2.4 -1.5)
+		(end 1.5 -2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "015af5c8-928f-4a31-a65e-1c64cb9b8b30")
+	)
+	(fp_line
+		(start 2.4 1.5)
+		(end 2.4 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d167e58b-8064-4a8f-b28f-bd4e51a81c59")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b36b77e1-d779-44bf-b44d-5f1304669d95")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.7 8.85 0)
+		(layer "F.Fab")
+		(uuid "1474a465-7480-44b4-9849-ad16b610a1ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.9 -1.8 90)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4c1e76ac-c77c-4b23-943e-af5b0c16faf8")
+	)
+	(pad "1" smd rect
+		(at 2.9 -1.8 90)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e9dfc7f6-4486-4361-9670-2b61b5dc675d")
+	)
+	(pad "2" smd rect
+		(at -2.9 1.8 90)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "49644264-d1c0-4517-bdf7-311268adb167")
+	)
+	(pad "2" smd rect
+		(at 2.9 1.8 90)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "baaf7301-41e8-4ebb-8752-e66d241b2a8e")
+	)
+	(embedded_fonts no)
+	(model "${PERSONAL}/SW_Push_Tact.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.7 0.7 0.7)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
