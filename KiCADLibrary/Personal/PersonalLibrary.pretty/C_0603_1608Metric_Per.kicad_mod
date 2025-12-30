@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "C_0603_1608Metric_Per"
-		(at 0 1.43 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "4e5feb93-e33a-49c0-b9c5-ae5884f54838")
 		(effects

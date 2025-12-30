@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "C_0805_2012Metric_Per"
-		(at 0 1.68 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "e1cef26a-9b05-47d0-95ed-57ad6f7a78aa")
 		(effects
@@ -74,7 +74,7 @@
 		(uuid "e7045d71-ae5b-4657-a0af-746ee51b42ec")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.09 2.76 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "c0d28e02-a811-416e-8ea3-8972062d277d")
 		(effects
